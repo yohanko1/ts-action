@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_ts_action_1688785137021-push-trigger-input-set
+  identifier: Build_ts_action_1688785137021pushtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: default_project
+  pipeline:
+    identifier: Build_ts_action_1688785137021
+    properties:
+      ci:
+        codebase:
+          build:
+            type: branch
+            spec:
+              branch: <+trigger.branch>
